@@ -1,8 +1,10 @@
 ### Some thoughts on social networking services
 
-**Closed-source platform, one maintainer**
+**The problem: Closed-source platform, one maintainer**
 
 Ever since the idea of social networking as a service came about, there have been many approaches to address one simple idea: connecting people together. Many of the more prominent social networking services that have come into existence have utilized a closed-source platform with the direction being driven by the maintainer of the service. As a direct consequence, the decisions made by the maintainer must be accepted by the users of the service. This can be quite frustrating for users that don't like the decisions that are made, which might result in departure.
+
+**A solution: Open-source, contributor driven**
 
 What if the platform was open-source, and the direction of the social networking service was defined by the users? Improvements on the service could be done through contributions from users of the service itself. Users could also be in control of the service, and therefore they would get to choose what they want and what they don't want. They would also get to see how the  service is run because they would have direct access to the source and contributors to particular features.
 
