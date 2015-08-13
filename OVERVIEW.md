@@ -39,6 +39,8 @@ network will include.
 
 - Profile
 - Friends
-- Stream
+- Updates (status, photo, and link for now)
+- Stream (view updates from other users)
+- Subscriptions & Notifications
 - Messages
 - Groups
