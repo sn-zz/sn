@@ -1,5 +1,5 @@
-# the social network - overview
-This document is a general overview of the social network service. The social network is a centralized, contribution-driven service that allows for users (such as individuals or organizations) to connect and interact with one another.
+# snaas.io - overview
+This document is a general overview of the social network service. The social network is an open source, community driven service that allows for users (such as individuals or organizations) to connect and interact with one another.
 
 ## Features
 Though the service is rich with features, they are loosely coupled. Any particular user has the ability to choose which features they desire to use. The following is a rough list of what features the bootstrap release of the social network will include.

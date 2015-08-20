@@ -1,4 +1,4 @@
-# the social network - schema
+# snaas.io - schema
 This document represents each feature that is planned for the bootstrap release of the social network service.
 
 ## Profile
