@@ -11,3 +11,6 @@ If the direction of the social networking service were defined by the users, the
 
 ## Customizing the service
 A hypothetical social networking service could provide a basic core sub-service and allow the user to customize it to their desire. For example, a standard stream of updates from a users' friends could be provided, but the way that the updates are organized could be customized by the users. Users wouldn't have to adhere to an ordering decided upon by the maintainer of the service, but instead would see the exact ordering that they decide on.
+
+## Governance
+A hypothetical social networking service could be governed by the people of the network. With features being added based on vote, governance becomes something that is driven by consensus among the user base. The feature set adopted by the majority of a group defines the feature set of a particular network.
