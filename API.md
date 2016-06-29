@@ -1,5 +1,5 @@
 # the social network - api
-## `user`
+## `users`
 
 User `id` is identified by (`username` or `email`) and `password`
 
@@ -12,19 +12,21 @@ Field | Type | Description
 
 Endpoint | Description
 ---------|------------
-`POST /user` | create a user
-`POST /user/{USER-ID}` | update a user
-`GET /user/{USER-ID}` | get a user
-`DELETE /user/{USER-ID}` | delete a user
+`GET /users` | Retrieves a list of users
+`GET /users/:userId` | Retrieves a specific user
+`POST /users` | Creates a new user
+`PUT /users/:userId` | Updates a specific user
+`PATCH /users/:userId` | Partially updates a specific user
+`DELETE /users/:userId` | Deletes a specific user
 
 ### Edges
 
 Endpoint | Description
 ---------|------------
-`GET /user/{USER-ID}/photos` | alias to `/photo/?owner={USER-ID}`
-`GET /user/{USER-ID}/friends` | alias to `/connection/?type=friend&entity_contains={USER-ID}`
-`GET /user/{USER-ID}/groups` | get a users' groups
-`GET /user/{USER-ID}/posts` | alias to `/post/?owner={USER-ID}`
+`GET /users/:userId/photos` | alias to `/photo/?owner={userId}`
+`GET /users/:userId/friends` | alias to `/connection/?type=friend&entity_contains={userId}`
+`GET /users/:userId/groups` | get a users' groups
+`GET /users/:userId/posts` | alias to `/post/?owner={userId}`
 
 ## `profile`
 
